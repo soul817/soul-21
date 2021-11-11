@@ -1,11 +1,9 @@
 .user-component {
+  display: flex;
   justify-content: space-between;
 }
-.user-component {
-  display: flex;
-}
 
-.user-component__column:first-child {
+.user-component__column {
   display: flex;
   align-items: center;
 }
@@ -36,11 +34,7 @@
 .user-component__title--not-bold {
   font-weight: 400;
 }
-.friends-screen__channel {
-  margin-top: 25px;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
-  padding-top: 10px;
-}
-.friends-screen__channel-header {
-  margin-bottom: 25px;
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }
