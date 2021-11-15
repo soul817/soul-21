@@ -21,7 +21,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin: 0px 5px;
 }
-.status-bar__column .fa-battery-quarter {
-  margin: 0px 2px;
+.status-bar__column i {
+  margin: 0px 3px;
 }

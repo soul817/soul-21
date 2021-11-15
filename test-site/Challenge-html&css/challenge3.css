@@ -1,0 +1,64 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: whitesmoke;
+  font-family: Georgia;
+}
+h1 {
+  font-size: 40px;
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+}
+.box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_box {
+  width: 800px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.second_box {
+  width: 270px;
+  height: 400px;
+  background-color: lightblue;
+  margin: 20px 20px;
+  position: relative;
+  border: 8px solid white;
+}
+.third_box {
+  background-color: white;
+  position: absolute;
+  top: 30px;
+  width: 270px;
+  height: 130px;
+}
+.name {
+  font-family: Times;
+  font-weight: 600;
+  font-size: 19px;
+  display: inline-block;
+  width: 270px;
+  height: 65px;
+  padding: 20px 15px;
+  box-sizing: border-box;
+}
+.second_box:nth-child(1) {
+  background-color: tomato;
+}
+.second_box:nth-child(2) {
+  background-color: teal;
+}
+.second_box:nth-child(3) {
+  background-color: burlywood;
+}
+.second_box:nth-child(4) {
+  background-color: thistle;
+}
