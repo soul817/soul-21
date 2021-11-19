@@ -1,0 +1,11 @@
+.playlist-main__column {
+  display: flex;
+  align-items: center;
+}
+.playlist-main__photo {
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px;
+  border-radius: 20%;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}

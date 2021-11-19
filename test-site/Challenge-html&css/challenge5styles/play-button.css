@@ -1,0 +1,38 @@
+.play-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  height: 100px;
+  margin-top: 15px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+.play-buttons__play {
+  border-radius: 15px;
+  width: 180px;
+  height: 80px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-width: 5px;
+}
+.play-buttons__etc {
+  display: flex;
+}
+.play-buttons__etc span {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+}
+.play-buttons__etc span:first-child {
+  margin-right: 15px;
+}
+.play-buttons span {
+  border-bottom-width: 5px;
+}
