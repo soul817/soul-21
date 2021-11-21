@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Document</title>
+  <link rel="stylesheet" href="challenge7.css">
+</head>
+<body>
+<div class="screen">
+  <header class="topmenu">
+    <i class="fas fa-arrow-left fa-lg"></i>
+    <i class="fas fa-search fa-lg"></i>
+  </header>
+  <main class="main">
+    <section class="artist">
+      <div class="artist__column">
+        <img src="images/coldplay.jpg" class="artist__photo">
+        <div class="artist__text">
+          <h2 class="artist__singer">Coldplay</h2>
+          <h5 class="artist__ex">Rock band, Alternative/Indie</h5>
+         </div> 
+      </div>
+    </section>
+    <section class="button">
+      <div class="button__column">
+        <div class="button__shuffle"><i class="fas fa-random fa-lg"></i> Shuffle</div>
+        <div class="button__heart"><i class="fas fa-heart fa-lg"></i> 817</div>
+      </div>
+    </section>
+    <section class="song">
+      <ul class="songs">
+        <li class="songs-list">
+          <div class="songs-list__column">
+            <img src="images/yellow.jpg" class="songs-list__photo">
+            <div class="songs-list__column__icon"><i class="fas fa-volume-up fa-lg"></i></div>
+            <div class="songs-list__text">
+              <span class="songs-text__title">Yellow</span>
+              <span class="songs-text__artist">Coldplay</span>
+            </div>
+          </div>
+          <div class="songs-list__column">
+            <span>
+              <i class="fas fa-bars"></i>
+            </span>
+          </div>
+        </li>
+        <li class="songs-list">
+          <div class="songs-list__column">
+            <img src="images/thescientist.jpg" class="songs-list__photo">
+            <div class="songs-list__column__icon"><i class="fas fa-volume-up fa-lg"></i></div>
+            <div class="songs-list__text">
+              <span class="songs-text__title">The Scientist</span>
+              <span class="songs-text__artist">Coldplay</span>
+            </div>
+          </div>
+          <div class="songs-list__column">
+            <span>
+              <i class="fas fa-bars"></i>
+            </span>
+          </div>
+        </li>
+        <li class="songs-list">
+          <div class="songs-list__column">
+            <img src="images/fixyou.jpg" class="songs-list__photo">
+            <div class="songs-list__column__icon"><i class="fas fa-volume-up fa-lg"></i></div>
+            <div class="songs-list__text">
+              <span class="songs-text__title">Fix you</span>
+              <span class="songs-text__artist">Coldplay</span>
+            </div>
+          </div>
+          <div class="songs-list__column">
+            <span>
+              <i class="fas fa-bars"></i>
+            </span>
+          </div>
+        </li>
+        <li class="songs-list">
+          <div class="songs-list__column">
+            <img src="images/stars.jpg" class="songs-list__photo">
+            <div class="songs-list__column__icon"><i class="fas fa-volume-up fa-lg"></i></div>
+            <div class="songs-list__text">
+              <span class="songs-text__title">A Sky Full of Stars</span>
+              <span class="songs-text__artist">Coldplay</span>
+            </div>
+          </div>
+          <div class="songs-list__column">
+            <span>
+              <i class="fas fa-bars"></i>
+            </span>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="playing">
+      <div>
+        <span class="playing__artist">Coldplay</span>
+        <span class="playing__title">Viva La Vida</span>
+      </div>
+      <div class="playing-bar">
+        <span class="playing-bar__button"><i class="fas fa-step-backward"></i></span>
+        <span class="playing-bar__button"><i class="fas fa-pause fa-lg"></i></span>
+        <span class="playing-bar__button"><i class="fas fa-step-forward"></i></span>
+      </div>
+    </section>
+  </main>
+</div>
+
+  <div class="screen">
+    <header class="topmenu">
+      <i class="fas fa-arrow-left fa-lg"></i>
+      <i class="fas fa-bars fa-lg"></i>
+    </header>
+    <section class="player">
+      <div class="player-screen">
+        <img src="images/viva.webp" class="player-screen__photo">
+        <div class="player-screen__text">
+          <h1 class="player-screen__title">Viva La Vida</h1>
+          <h3 class="player-screen__artist">Coldplay</h3>
+        </div>
+      </div>
+    </section>
+    <section class="playbar">
+      <div class="playbar__time">
+        <span>2:00</span>
+        <span>4:01</span>
+      </div>
+      <div class="playbar-screen">
+        <input class="playbar-screen-range" type="range" min="0" max="4.01" step="0.01">
+      </div>
+    </section>
+    <section class="play-control">
+      <div class="play-control__screen">
+        <i class="fas fa-sync-alt"></i>
+        <i class="fas fa-step-backward fa-lg"></i>
+        <i class="fas fa-play-circle fa-3x"></i>
+        <i class="fas fa-step-forward fa-lg"></i>
+        <i class="fas fa-random"></i>
+      </div>
+    </section>
+  </div>
+
+
+
+<script src="https://kit.fontawesome.com/6478f529f2.js" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
