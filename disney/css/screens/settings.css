@@ -1,0 +1,26 @@
+.main-screen-settings {
+  margin-top: 20px;
+  padding: 0px var(--horizontal-space);
+}
+.settings-settings {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings-settings i {
+  font-size: 22px;
+  opacity: 0.7;
+}
+.settings-settings span {
+  margin-left: 15px;
+  font-size: 17px;
+}
+.settings-settings-column {
+  font-size: 17px;
+}
+.settings-settings-column:last-child {
+  color: var(--font-gray);
+}
