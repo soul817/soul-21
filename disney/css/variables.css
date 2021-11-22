@@ -1,0 +1,8 @@
+:root {
+  --body-color: #eaefef;
+  --com-color: #d1dfe8;
+  --blue: #bfc8d7;
+  --horizontal-space: 20px;
+  --border-bottom-color: 1px solid rgba(0, 0, 0, 0.2);
+  --font-gray: rgba(0, 0, 0, 0.5);
+}

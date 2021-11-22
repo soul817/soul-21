@@ -1,0 +1,66 @@
+.loading-screen {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circle {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+@keyframes shcircle {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+.circle_c {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  animation: shcircle 1.3s ease-in-out 4;
+}
+
+.circle span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: black;
+  opacity: 0.6;
+}
+.ron_photo {
+  width: 350px;
+  height: 500px;
+}
+.click {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: calc(8px + 6vw);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: black;
+  mix-blend-mode: multiply;
+  opacity: 0;
+  animation: fadeInText 5s 5s ease-out forwards;
+}
+@keyframes fadeInText {
+  100% {
+    opacity: 1;
+  }
+}
